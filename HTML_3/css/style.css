@@ -1,0 +1,372 @@
+body{
+    padding-bottom: 500px;
+}
+
+
+h3 {
+    color: green;
+}/* */
+
+.paragraph {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+/* ordem das regras*/
+
+ /*h2 {
+   /* border-bottom: 2px solid red;*/
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+/* nome de cores */
+.color-name {
+    color: crimson
+}
+
+/* hex */
+
+.hex {
+    color: #55a398 ; 
+}
+.hex-2{
+    color: #2de70c;
+}
+/* Aprofudando em hex*/
+
+.simple-hex {
+    color: #0ff;
+}
+/* RGB */
+
+.rgb {
+    color: rgb(0, 255, 0);
+}
+.mixed-rgb {
+    color: rgb(199, 21, 47);
+}
+
+/* RGBA */
+
+.rgba {
+    color: rgba(100, 199, 45, 1);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+.hsl-2 {
+    color: hsl(201, 44%, 69%);
+}
+
+/* Background*/
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+.bg-2 {
+    background-color: #0fa;
+    color: rgb(200, 20, 50);
+}
+
+/*Background opacity*/
+
+.bg-opacity {
+    background-color: green;
+    opacity: 0.2;
+}
+.bg-opacity-2 {
+    background-color: #999;
+    color: #000;
+    opacity: 0.1;
+
+}
+/* RGBA com opacidade*/
+.rgba-opacity {
+    background-color: rgba(90, 120, 0, 0.2);
+
+}
+/* bg image */
+
+.bg-im {
+    background-image: url("../img/rwow8CCG3C3GrqHGiK8qcJ-1200-80.jpg");
+    padding: 50px;
+    color: #fff;
+}
+
+/* Centralizando bg image */
+
+.not-centered-bg,.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(/HTML_3/img/images\ \(9\).jpg);
+
+}
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Largura e altura */
+
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+
+}
+.height-width-2 {
+    height: 300px;
+    background-color: #000;
+}
+
+/* Padding */
+.without-padding,
+.padding {
+    background-color: #111;
+    color: #fff;
+}
+.padding {
+    padding: 20px;
+}
+/* padding-individual */
+.padding-individual {
+    background-color: black;
+    color:#fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand padding */
+.shorthand-padding {
+    background-color: #4444;
+    padding: 6px 12px 18px 24px;
+    
+}
+.shorthand-padding-2 {
+    background-color: #555;
+    padding: 10px 20px;
+}
+
+/* padding com width */
+.without-border-box {
+    background-color: #4444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+.border-box {
+    background-color: #6666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+/* Border */
+
+.border {
+     border: 5px solid red;
+     padding: 10px;
+
+}
+.border-2 {
+    border: 1px dotted #801;
+    padding: 20px;
+    
+}
+
+/* Borda individual */
+
+.border-left {
+    border-left: 3px solid red;
+    background-color: #222;
+    padding: 25px;
+}
+.border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding: 20px;
+}
+
+/* Borda arredondada */
+
+.rounded-p{
+    border: 5px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 5px;
+}
+.rounded-p-2{
+    
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* margem */
+
+.margin {
+    color: blue;
+    margin: 10px;
+    background-color: black;
+
+}
+.margin-top {
+    margin-top: 50px;
+    background-color: #444;
+    padding: 10px;
+}
+.margin-shorthand {
+    color: blue;
+    background-color: #888;
+    margin: 5px 10px 15px 20px;
+
+}
+/* Box model */
+
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #923 ;
+    border-radius: 7px;
+    width: 300px;
+    height: 300px;
+    outline: none;
+}
+
+#desafio-3 {
+    background-color: rgb(0, 250, 213);
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid #399;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    outline: 5px solid red;
+}
+.desafio-3 {
+    color: red;
+    background-color: black;
+    border: none;
+}
+.text-aligned {
+    text-align: right;
+}
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 1px solid red
+}
+
+/* text decoration */
+
+.underline {
+    text-decoration: underline;
+}
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+}
+
+/* text transform*/
+
+
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}
+
+.spacing {
+    letter-spacing: 5px;
+}
+/* Fontes */
+
+.serif {
+    font-family: Georgia;
+}
+.sans-serif {
+    font-family: Helvetica;
+}
+.monospace{
+    font-style: "Courier New";
+
+
+}
+.cursive {
+    font-family: cursive;
+}
+.fantasy {
+    font-family: fantasy;
+}
+
+/* font style */
+.italic {
+    font-style: italic;
+} 
+.oblique {
+    font-style: oblique;
+}
+/* font weight */
+
+.thin, .bold, .bolder{
+    font-family: Helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+.bold {
+    font-weight: 600;
+}
+.bolder {
+    font-weight: 900;
+ }
+
+ /* Font size */
+
+ .small {
+    font-size: 3px;
+ }
+
+ .big {
+    font-size:  90px;
+ }
+
+ /* Display */
+
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+.block {
+    background-color: blue;
+    display: block;
+}
+
+/*  */
+
+.invisible {
+    display: none;
+}
